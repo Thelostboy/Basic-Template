@@ -81,8 +81,14 @@ body{
 
 .container-fluid{
     background-color: #ccc;
-    min-height: 100px;
+    /* min-height: 100px; */
 }
 .thumb img{
-    width: 70%;
+    width: 100%;
+}
+.detail p, .contact p,  .hour p{
+    margin-bottom: 0;
+}
+input{
+margin-top: 15px;
 }
