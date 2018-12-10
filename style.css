@@ -1,12 +1,12 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 body{
     margin: 0;
     padding: 0;
+    font-family: serif !important;
 }
+/* Header */ 
 .header{
     border-bottom: 1.5px solid #ccc;
 }
@@ -43,16 +43,13 @@ body{
 .slogan{
     font-family: serif;
     font-weight: 550;
-    font-size: 16px;
+    font-size: 18px;
     color: rgb(41, 38, 38);
-}
-.banner{
-    border-bottom: 1px solid #ccc;
 }
 
 /* Services */
-.services, .players, .lorem  {
-    border-top: 1px solid #ccc;
+.banner, .players , .services, .footer-detail {
+    border-bottom: 1px solid #C4C4C4;
 }
 .component{
     position: relative; 
@@ -68,6 +65,7 @@ body{
     text-transform: uppercase;
     font-family: serif;
     border-radius: 10px;
+    cursor: pointer;
 }
 .services .service-item .sub{
     font-size: 18px;
@@ -77,18 +75,58 @@ body{
 .players img{
     width: 85%;
 }
+.info a{
+    color: #D24D5E;
+    font-size: 12px;
+}
 /* Footer */
 
 .container-fluid{
-    background-color: #ccc;
-    /* min-height: 100px; */
+    background-color: #E2E2E2;
 }
 .thumb img{
     width: 100%;
 }
-.detail p, .contact p,  .hour p{
-    margin-bottom: 0;
+h6{
+    padding-bottom: 20px;
+    font-family: serif;
 }
-input{
-margin-top: 15px;
+.detail p, .contact p,  .hour p{
+    margin-bottom: 0 !important;
+}
+form{
+    position: relative;
+    padding-bottom: 8px;
+}
+label{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: #9A9A9A;
+    font-family: serif;
+}
+#message{
+    height: 150px;
+}
+.button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #E2494C;
+    color:#fff;
+    border: none;
+    font-size: 16px;
+    font-family: serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.footer p, .info p, .service-item p{
+    color: #929292;
+    font-size: 13px;
+    font-weight: 300;
+}
+.hr{
+    border-top: 1px solid rgba(255,255,255,1);
+    margin: 0 auto;
+    padding: 0;
 }
