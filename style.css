@@ -1,118 +1,165 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0;
     padding: 0;
     font-family: serif !important;
 }
-/* Header */ 
-.header{
+
+/* Header */
+
+.header {
     border-bottom: 1.5px solid #ccc;
 }
-.header p{
+
+.header p {
     text-transform: uppercase;
     font-size: 24px;
     color: rgb(41, 38, 38);
 }
-.header span{
+
+.header span {
     font-size: 30px;
 }
-.header ul{
+
+.header ul {
     background-color: #E2494C;
     border-radius: 10px;
 }
-.header ul li{
+
+.header ul li {
     list-style: none;
 }
-.header ul li a{
+
+.header ul li a {
     display: inline-block;
-    padding: 14px;
-    color:#fff;
-    text-transform: uppercase;  
+    padding: 14px 16px;
+    color: #fff;
+    text-transform: uppercase;
     font-family: serif;
     font-weight: 580;
 }
-.header a:hover{
-    color: #ccc;
+
+.header a:hover {
+    color: #EABAF3;
 }
+
 /* End header */
 
 /* Banner */
 
-.slogan{
+.slogan {
     font-family: serif;
     font-weight: 550;
     font-size: 18px;
     color: rgb(41, 38, 38);
 }
+.banner{
+    padding-bottom: 80px;
+}
+.carousel{
+    position: relative;
+}
+.carousel-indicators{
+    top: 105%;
+    left: 50%;
+}
+.carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #9A9A9A !important;
+    border-radius: 50%;
+    margin: 0 5px !important;
+}
+.carousel-indicators .active{
+    background-color: #fff !important;
+    border: 2px solid rgb(0, 0, 0);
+}
 
 /* Services */
-.banner, .players , .services, .footer-detail {
+
+.banner, .players, .services, .footer-detail {
     border-bottom: 1px solid #C4C4C4;
 }
-.component{
-    position: relative; 
+
+.component {
+    position: relative;
 }
-.title{
+
+.title {
     position: absolute;
     top: 0;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #E2494C;
-    color:#fff;
+    color: #fff;
     padding: 5px;
     text-transform: uppercase;
     font-family: serif;
     border-radius: 10px;
     cursor: pointer;
 }
-.services .service-item .sub{
+
+.services .service-item .sub {
     font-size: 18px;
     font-weight: 550;
 }
+
 /* Players */
-.players img{
+
+.players img {
     width: 85%;
 }
-.info a{
+
+.info a {
     color: #D24D5E;
     font-size: 12px;
 }
+
 /* Footer */
 
-.container-fluid{
+.container-fluid {
     background-color: #E2E2E2;
 }
-.thumb img{
+
+.thumb img {
     width: 100%;
 }
-h6{
+
+h6 {
     padding-bottom: 20px;
     font-family: serif;
 }
-.detail p, .contact p,  .hour p{
+
+.detail p, .contact p, .hour p {
     margin-bottom: 0 !important;
 }
-form{
+
+form {
     position: relative;
     padding-bottom: 8px;
 }
-label{
+
+label {
     position: absolute;
-    top: 5px;
+    top: 8px;
     left: 10px;
     color: #9A9A9A;
     font-family: serif;
+    font-size: 13px;
 }
-#message{
+
+#message {
     height: 150px;
 }
-.button{
+
+.button {
     padding: 5px 10px;
     border-radius: 5px;
     background-color: #E2494C;
-    color:#fff;
+    color: #fff;
     border: none;
     font-size: 16px;
     font-family: serif;
@@ -120,13 +167,18 @@ label{
     cursor: pointer;
 }
 
-.footer p, .info p, .service-item p{
+.footer p, .info p, .service-item p {
     color: #929292;
     font-size: 13px;
     font-weight: 300;
 }
-.hr{
-    border-top: 1px solid rgba(255,255,255,1);
+
+.footer p span {
+    color: #E2494C;
+}
+
+.hr {
+    border-top: 1px solid rgba(255, 255, 255, 1);
     margin: 0 auto;
     padding: 0;
 }
